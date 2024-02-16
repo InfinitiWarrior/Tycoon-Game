@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Tycoon Game</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="test.css"> <!-- Add the test.css stylesheet -->
+</head>
+<body>
+    <div id="game-container">
+        <div id="left-panel">
+            <h2>Website Progress</h2>
+            <div id="progress-bar">
+                <div id="progress-bar-inner"></div>
+            </div>
+            <div id="website-preview"></div>
+        </div>
+        <div id="game-screen">
+            <div id="websites-list">
+                <!-- Website cards will be dynamically added here -->
+            </div>
+        </div>
+        <div id="sidebar">
+            <h2>Resources</h2>
+            <div id="resources">
+                <p>Money: $<span id="money">0</span></p>
+                <p><span class="websites" id="websites"></span></p>
+            </div>
+            <button id="build-website-btn">Build Website</button>
+            <h2>Upgrade Shop</h2>
+            <div id="upgrade-shop">
+                <!-- Upgrade items will be dynamically added here -->
+            </div>
+        </div>
+    </div>
+
+    <div class="img-2">
+        <div class="container">
+            <div class="long-bar bar-1"></div>
+            <div class="long-bar bar-2"></div>
+            <div class="screen">
+                <div class="content">
+                    <div class="sc-el-1">
+                        <div class="sc-ln sc-el-1-ln-1"></div>
+                        <div class="sc-ln sc-el-1-ln-2"></div>
+                        <div class="sc-el-1-div">
+                            <div>
+                                Welcome to Website Tycoon!
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sc-el-2">
+                        <div class="person">
+                            <div class="head"></div>
+                            <div class="body"></div>
+                        </div>
+                    </div>
+                    <div class="sc-el-3">
+                        <div class="bar bar-1">
+                            <div class="circle"></div>
+                        </div>
+                        <div class="bar bar-2">
+                            <div class="circle"></div>
+                        </div>
+                        <div class="bar bar-3">
+                            <div class="circle"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="keyboard"></div>
+        </div>
+    </div>
+
+    <script src="game.js"></script>
+</body>
+</html>

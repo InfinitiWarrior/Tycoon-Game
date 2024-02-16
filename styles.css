@@ -1,0 +1,140 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f3f3f3;
+    overflow: hidden;
+}
+.websites{
+    -webkit-text-fill-color: #f9f9f9;
+}
+#game-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#game-screen {
+    flex: 1;
+    padding: 20px;
+}
+
+#game-screen h1 {
+    color: #333;
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+#game-screen p {
+    color: #666;
+}
+
+#websites-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.website-card {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.website-title {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.website-type {
+    color: #666;
+}
+
+#sidebar {
+    width: 250px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+
+#upgrade-shop {
+    margin-top: 20px;
+}
+
+.upgrade-item {
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.upgrade-title {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.upgrade-description {
+    color: #666;
+}
+
+#left-panel {
+    width: 250px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-right: 20px;
+}
+
+#progress-bar {
+    width: 100%;
+    height: 20px;
+    background-color: #ddd;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+#progress-bar-inner {
+    height: 100%;
+    background-color: #4CAF50;
+}
+
+#website-preview {
+    height: 200px;
+    width: 100%;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+#progress-bar-inner {
+    width: 0;
+    height: 100%;
+    background-color: green; /* Start color */
+    transition: width 0.1s linear; /* Smooth transition */
+}
